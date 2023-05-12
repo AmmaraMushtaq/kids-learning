@@ -70,7 +70,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/worksheet" element={<Worksheet />} /> */}
+          <Route path="/worksheet" element={<Worksheet />} />
           <Route path="/videos" element={<Videos />} />
           <Route path="/contactus" element={<Contactus />} />
           <Route path="*" element={<Notfound />} />
