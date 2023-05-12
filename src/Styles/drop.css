@@ -1,0 +1,54 @@
+.drop{
+background-color: white;
+
+ margin-top: 6px;
+ width: 50vw;
+ padding-left: 30%;
+ padding-right: 25%;
+
+ 
+  
+}
+.navigation-menu1{
+    list-style: none;
+    display: flex;
+    height: 4vh;
+    align-items: center;
+    justify-content: center;
+   
+
+    
+}
+
+.navigation-menu1 ul{
+    position: relative;
+    margin: 5px;
+    background-color:rgb(176, 157, 108);
+    width: 30%; 
+
+}
+.navigation-menu1  li{
+    margin: 0px 10px;
+
+}
+.navigation-menu1 li a{
+    
+    display: inline-block;
+    text-decoration: none;
+    color: #085a89;
+  
+}
+/* .navigation-menu ul ul{
+    position: absolute  ;
+}
+.navigation-menu ul ul li{
+    position: relative;
+   
+    width: 150px;
+    float: none;
+    display: list-item;
+} */
+
+@media only screen and (max-width:600px){
+    .drop{visibility: hidden;}
+}
